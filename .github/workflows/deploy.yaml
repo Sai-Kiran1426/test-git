@@ -9,12 +9,12 @@ permissions:
   contents: read
 
 env:
-  # 🔧 Fill these with your values
   PROJECT_ID: new-project-460404
   PROJECT_NUMBER: 512488159671
+  SERVICE_ACCOUNT: github-actions
   GITHUB_USERNAME: Sai-Kiran1426
   REPO_NAME: test-git
-  SERVICE_ACCOUNT: github-actions
+
 
 jobs:
   deploy:
